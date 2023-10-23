@@ -1,0 +1,28 @@
+.nav {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 4rem;
+}
+.navFirst,
+.navSec {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    align-items: center;
+}
+.navSec > a:hover {
+    color: #b2c0c1;
+}
+.navSec > a,
+.navFirst > div,
+.navSec > div {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links.active {
+    border-bottom: 2px solid #39a7af;
+}

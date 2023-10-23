@@ -1,0 +1,34 @@
+.main {
+    max-width: 50rem;
+    margin: 10rem auto 4rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.main > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+}
+
+.main > div > input {
+    width: 2rem;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    font-size: 1.4rem;
+    background: #333;
+    color: aliceblue;
+    padding: 0.2rem 1.2rem;
+}
